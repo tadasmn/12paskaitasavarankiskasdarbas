@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang ="en">
+    <head>
+        <title>Best ToDo App Task</title>
+        <link rel="stylesheet" href="./taskstyle.css" />
+    </head>
+    <body>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        <div>
+            <div class="header">
+                <h1>Best <span class="todo">ToDo</span> App</h1>
+                <div class="icons">
+                   <a class="facebook" href="https://www.facebook.com/" target="_blank"> 
+                    <ion-icon name="logo-facebook"></ion-icon>
+                   </a>
+                   <a class="instagram" href="https://www.instagram.com/" target="_blank"> 
+                    <ion-icon name="logo-instagram"></ion-icon>
+                   </a>
+                   <a href="https://www.linkedin.com/" target="_blank"> 
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                    </a>
+               </div>
+           </div>
+            <div class="main">         
+               <div class="tasks">
+                    <span class="edittask">Edit Task</span>
+                        <div class="taskid">
+                            <label for="Task ID">Task ID</label>
+                            <span>123456789</span>
+                        </div> 
+                        <div class="name">
+                            <label for="name">Name</label>
+                            <input class="example" required type="text" name="Take out trashes" value="Take out trashes">
+                        </div>
+                        <div class="completed">
+                          <label for="completed">Completed</label>
+                            <input type="checkbox"> 
+                        </div>       
+                        <div class="edit button">
+                            <button class="button">Edit</button>                
+                        </div>
+                        <div class="error">
+                        <span >There Was An Error</span>
+                        </div>
+                </div>
+                                <div>
+                                        <a  href="index.html">
+                                        <button class="back" type="button" onclick="index.html">Back To Tasks</button>
+                                        </a>
+                                </div>  
+            </div>    
+        </div>
+</body>
+</html>
